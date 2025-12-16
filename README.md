@@ -7,7 +7,7 @@ This project analyzes a dataset of [data-science job postings](https://www.kaggl
 
 The cleaned dataset is then used to answer several business questions:
 
-1. Which job titles / position types pay the best?
+1. Which job titles/position types pay the best?
 
 2. Which U.S. states offer the highest salaries for data roles?
 
@@ -21,7 +21,7 @@ This project showcases practical skills in Power Query ETL, data cleaning, colum
 ## Project Files
 
 - `clean data by power query.xlsx`: Include all project works
-    - This file include seven tables:
+    - This file includes seven tables:
     
       1. Uncleaned_DS_jobs.xlsx	Raw dataset imported from Kaggle.
       2. Final_cleaned_DS_jobs.xlsx	Fully cleaned version after Power Query transformations.
@@ -101,13 +101,13 @@ This project showcases practical skills in Power Query ETL, data cleaning, colum
    - Created a Location Correction column to fix irregular patterns.
    - Split cleaned location into two new columns: **City** and **State Abbreviation**
    - Merged with a reference states table to ensure valid state names.
-   - Create and add a new table called **State Fullname**
+   - Create and add a new column called **State Fullname**
     
 
  6. **Company Name Cleaning**
 
     - Company names contained ratings, e.g.:
-        `Pfizer (4.1)", "Meta (3.8)`
+        `Pfizer (4.1)', "Meta (3.8)`
 
     - Renamed original to **Company Name (with rating)**
     - Created new column **Company Name** containing only the clean company name.
@@ -135,19 +135,19 @@ This project showcases practical skills in Power Query ETL, data cleaning, colum
 
 - `Microsoft Excel Power Query`
 
-- `Column splitting and merging`
+- `Column splitting and merging.`
 
-- `Custom column creation`
+- `Custom column creation.`
 
 - `Conditional transformations`
 
 - `Text extraction`
 
-- `Filtering and trimming`
+- `Filtering and trimming.`
 
 - `Grouping and aggregations`
 
-- `Merging reference tables`
+- `Merging reference tables.`
 
 - `Data Cleaning & Standardization`
 
@@ -177,6 +177,5 @@ Several top employers reached maximum salary estimates above $300K in the datase
 
 
 
-```python
 
-```
+
